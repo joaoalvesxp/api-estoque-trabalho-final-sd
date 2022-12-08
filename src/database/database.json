@@ -1,0 +1,27 @@
+{
+    "stocks": [
+        {
+            "id": "35c721cd-49f3-4e22-9667-8d8c2c20fe27",
+            "name": "ATUALIZANDO 222",
+            "items": 0,
+            "totalItems": 0,
+            "products": []
+        },
+        {
+            "id": "62dbf6b0-dbb1-4c03-a96e-753ccb161e57",
+            "name": "SECUNDARIO",
+            "description": "Apenas produtos importados.",
+            "items": 0,
+            "totalItems": 0,
+            "products": []
+        },
+        {
+            "id": "20c6fb1a-ae2d-4646-af35-a831a40497b9",
+            "name": "SECUNDARIO",
+            "description": "Apenas produtos importados.",
+            "items": 0,
+            "totalItems": 0,
+            "products": []
+        }
+    ]
+}
