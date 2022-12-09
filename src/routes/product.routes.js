@@ -1,12 +1,13 @@
 const { Router } = require("express");
-const StockController = require("../controllers/StockController")
-const stockRoutes = Router();
+const ProductController = require("../controllers/ProductController");
+const productRoutes = Router();
 
-const  stockController = new StockController();
-stockRoutes.get('/deposito/', stockController.list);
-stockRoutes.get('/:id', stockController.showStock);
-stockRoutes.post('/', stockController.createStock);
-stockRoutes.put('/:id', stockController.updateStock);
-stockRoutes.delete('/:id', stockController.deleteStock);
+const  productController = new ProductController();
 
-module.exports = stockRoutes
+productRoutes.get('/', productController.list);
+//productRoutes.get('/:id', productController.showStock);
+productRoutes.post('/', productController.createProduct);
+productRoutes.put('/:id/:idstock', productController.updateProduct);
+//productRoutes.delete('/:id', productController.deleteStock);
+
+module.exports = productRoutes

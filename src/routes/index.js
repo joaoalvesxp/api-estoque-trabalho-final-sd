@@ -6,6 +6,6 @@ const productsRouter = require("./product.routes");
 const routes = Router();
 
 routes.use("/depositos", stocksRouter);
-routes.use("/depositos/produtos", productsRouter);
+routes.use("/produtos", productsRouter);
 
-module.exports =  routes;
+module.exports = routes;
